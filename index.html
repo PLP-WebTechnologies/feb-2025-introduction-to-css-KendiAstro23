@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Advanced HTML and CSS</title>
+        <header>
+            <h1>Advanced HTML basics</h1>
+                <div class="navbar">
+                <ul>
+                    <li><a href="home">Home</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="contact">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+    </head>
+    <body>
+        <main>
+            <section id="home">
+                <div class="bg-img">
+                <img src="\port1.png" alt="Port">
+                </div>
+                
+            <ol type="1">
+                <li> <button class="my-btn" type="button">Lifestyle</button></li>
+                <li> <button class="my-btn" type="button">Sleep</button></li>
+                <li> <button class="my-btn" type="button">Travel</button></li>
+                <li> <button class="my-btn" type="button">Random Stuff</button></li>
+            </ol>
+            </section>
+            
+        <img src=" Photo by Trinity  Kubassek from Pexels: https://www.pexels.com/photo/woman-holding-blue-smoke-flare-445109/"
+        alt="Photo of Lifestyle">
+        </main>
+        <section id="about">
+
+        <div class="table">
+            
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address></th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>25 NY Street</td>
+                    <td>+254767675643</td>
+                    <td>lisaheny@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Blair</td>
+                    <td>43 Marble Street</td>
+                    <td>+254789007654</td>
+                    <td>blairbliss45@gmail.com</td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+            </section>
+            <section id="contact" class="section2">
+                <h2>Contact Us</h2>
+                <ul>
+                <!--Name Field-->
+                <li><label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name"></li>
+                <!--Email Field-->
+                <li><label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required></li>
+                <!--Password Field-->
+                <li><label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your Password" minlength="8" required></li>
+                <!---Date Field-->
+                <li><label for="date">Date</label>
+                <input type="date" id="date" name="date" placeholder="Enter date of Birth" required></li>
+                <!--Gender Field-->
+                <li><label for="gender">Gender</label>
+                <select id="gender" name="gender">
+                    <option value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select></li>
+                <!--Radio Buttons-->
+                <li><label>Radio Button Subscription</label>
+                <input type="radio" id="free" name="Subscription" value="free" required>
+                <label for="free">Free</label>
+                <input type="radio" id="plus" name="Subscription" value="plus" required>
+                <label for="plus">Plus</label></li>
+                <!--Terms and Conditions Checkbox-->
+                <label for="terms">Terms and Conditions</label>
+                <input type="checkbox" id="terms" name="terms" required>
+                
+
+            
+                </ul>
+                <button type="submit">Submit</button>
+                
+            </section>
+                
+    
+    </body>
+</html>
+
+                
+    
+
+</html>

@@ -1,0 +1,39 @@
+*{
+background-color: rgb(180, 139, 85);
+position: relative;
+}
+
+.navbar {
+    background-color: rgb(46, 42, 37);
+    text-align: right;
+    padding: 5px;
+    margin-right: 40px;
+    color: azure;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#home {
+    text-align: center;
+    position: relative;
+    color: blueviolet;
+}
+
+#home .my-btn {
+    color: blueviolet;
+    margin: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bg-img {
+    max-width: 50px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+
+.table {
+    color: rgb(48, 224, 210);
+    padding: 20px;
+}
